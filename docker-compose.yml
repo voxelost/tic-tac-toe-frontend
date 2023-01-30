@@ -3,8 +3,8 @@ version: '3.9'
 services:
   frontend:
     build:
-      context: frontend
+      context: .
       args:
-      - REACT_APP_BACKEND_URL:${REACT_APP_BACKEND_URL}
+        REACT_APP_BACKEND_URL: ${REACT_APP_BACKEND_URL}
     ports:
       - 80:80
