@@ -30,5 +30,5 @@ class WebSocketManager {
   }
 }
 
-const socketManager = new WebSocketManager("ws://localhost:8000");
+const socketManager = new WebSocketManager(process.env.REACT_APP_BACKEND_URL);
 export default socketManager;
