@@ -1,0 +1,11 @@
+.ServerStatus {
+    font-size: medium;
+    min-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.ServerStatusRow {
+    margin: 1vh;
+    text-align: left;
+}
