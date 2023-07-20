@@ -1,0 +1,55 @@
+.ChatBox {
+    /* margin: 1vh; */
+    min-height: 95vh;
+    min-width: 100%;
+}
+
+.TextBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* min-width: 100%; */
+    /* height: 90vh; */
+    /* min-height: 100%; */
+}
+
+.TextBoxTextField {
+    /* min-height: 90vh; */
+    width: 100%;
+    color: white;
+}
+
+.TextBoxButton {
+    /* min-height: 100%; */
+}
+
+
+.TextContainer {
+    text-align: left;
+}
+
+.MessageAvatar {
+    /* padding: 3px; */
+    margin-left: 10px;
+}
+
+.Message {
+    background-color: black;
+    font-size: medium;
+    min-width: 90%;
+    margin: 1vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 10px;
+    text-align: left;
+    flex-wrap: wrap;
+    /* opacity: 50%; */
+    /* display: inline-block; */
+    /* display: inline; */
+}
+
+
+/* .MessageWrapper {
+    display: flex;
+    align-content: flex-end;
+} */
